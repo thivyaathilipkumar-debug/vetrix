@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+backend/.env
+frontend/.env.local
+frontend/.env
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Logs
+*.log
+backend_error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+wallet_info.txt
+gen_wallet.js
+
+# Misc
+models.txt
+lint_output.txt
